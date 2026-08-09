@@ -1,6 +1,9 @@
-package com.dinidu.event_booking_service.repository;
+package com.dinidu.event_booking_service.service;
 
 import com.dinidu.event_booking_service.entity.*;
+import com.dinidu.event_booking_service.repository.BookingRepository;
+import com.dinidu.event_booking_service.repository.TicketTypeRepository;
+
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
